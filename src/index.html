@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <style>
+      .cell {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        border: 1px solid grey;
+        box-sizing: border-box;
+      }
+
+      #board-game {
+        display: flex;
+        flex-wrap: wrap;
+        width: 75px;
+      }
+    </style>
+    <script type="text/template" id="cell-template">
+      <span row="<%= row %>" column="<%= column %>"><%= value %></span>
+    </script>
+  </head>
+  <body>
+    <div id="board-game"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>

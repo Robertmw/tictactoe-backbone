@@ -1,0 +1,30 @@
+{
+  "name": "tictactoe-backbone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "lint": "eslint src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://robertmw:667fc35039d41186850f437a96f2510c06c0f4a1@github.com/Robertmw/tictactoe-backbone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robertmw/tictactoe-backbone/issues"
+  },
+  "homepage": "https://github.com/Robertmw/tictactoe-backbone#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "backbone": "^1.4.0",
+    "immer": "^5.3.2",
+    "jquery": "^3.4.1",
+    "underscore": "^1.9.2"
+  }
+}
